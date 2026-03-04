@@ -20,7 +20,7 @@ public class ScheduledListTypeSubscriptionsTrigger implements Trigger {
 
     @Override
     public void trigger() {
-        webClient.post().uri(String.format("%s/publication/latest/subscription?isScheduledListType=true", url))
+        webClient.post().uri(String.format("%s/publication/latest/subscription?scheduledListType=true", url))
             .attributes(clientRegistrationId("dataManagementApi"))
             .retrieve()
             .bodyToMono(String.class).block();

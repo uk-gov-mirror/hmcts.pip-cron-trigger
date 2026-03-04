@@ -46,7 +46,7 @@ public class ScheduledListTypeSubscriptionTriggerTest {
 
         RecordedRequest recordedRequest = mockDataManagementService.takeRequest();
         assertEquals("POST", recordedRequest.getMethod(), "Method not as expected");
-        assertEquals("/publication/latest/subscription?isScheduledListType=true", recordedRequest.getPath(),
+        assertEquals("/publication/latest/subscription?scheduledListType=true", recordedRequest.getPath(),
                      "Path not as expected");
 
     }
