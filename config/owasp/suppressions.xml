@@ -18,4 +18,8 @@
     <notes>Temporary suppression while investigating fix</notes>
     <cve>CVE-2020-29582</cve>
   </suppress>
+  <suppress>
+    <notes>Vulnerability in Tomcat</notes>
+    <cve>CVE-2026-24734</cve>
+  </suppress>
 </suppressions>
