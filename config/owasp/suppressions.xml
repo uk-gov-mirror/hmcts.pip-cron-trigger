@@ -27,4 +27,8 @@
     <cve>CVE-2026-33870</cve>
     <cve>CVE-2026-33871</cve>
   </suppress>
+  <suppress>
+    <notes>Vulnerability in fasterxml jackson</notes>
+    <cve>CVE-2026-29062</cve>
+  </suppress>
 </suppressions>
